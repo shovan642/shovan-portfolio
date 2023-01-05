@@ -29,7 +29,7 @@ nav {
 nav li {
     list-style: none;
     margin-left: 50px;
-    
+
 }
 
 nav ul {
@@ -43,6 +43,49 @@ nav ul {
     font-size: 45px;
 }
 
+.header{
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png); 
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
 
 /* banner style */
 
+.banner {
+    margin: 0 230px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-subtitle {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 61px;
+    color: #474747;
+    margin-bottom: 20px;
+}
+
+.banner-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 116px;
+    color: #181818;
+    margin-bottom: 20px;
+
+}
+
+.banner-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+button a {text-decoration: none;
+        color: #FFFFFF;
+}
